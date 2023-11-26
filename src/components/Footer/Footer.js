@@ -122,7 +122,7 @@ const Footer = () => {
         <div>
           <p className="">
             Privacy Policy | Terms & Conditions | Site Map <br />
-            <b>NETENDERS - © 2023</b>. All Rights Reserved
+            <b>NETENDERS - © 2023</b>. All Rights Reserved | Developer :: Abdelrahman Abdelwahab
           </p>
         </div>
 
