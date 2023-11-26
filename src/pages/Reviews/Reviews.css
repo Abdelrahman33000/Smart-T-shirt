@@ -1,0 +1,19 @@
+.Reviews{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    height: 350px;
+    
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ }
+
+body{
+    background-color: gray;
+}
+ 
+

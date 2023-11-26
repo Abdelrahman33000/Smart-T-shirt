@@ -1,0 +1,14 @@
+
+
+.link{
+    text-decoration: none;
+    align-items: center;
+}
+.nav-main{
+    box-shadow: 10px 10px 30px gray;
+}
+
+.icon1{
+    font-size: 50px;
+    color: azure;
+}

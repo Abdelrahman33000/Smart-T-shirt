@@ -1,0 +1,11 @@
+
+.footer{
+    background-color: #212529 ;
+    box-shadow: -10px -10px 22px gray 
+}
+
+
+.star{
+   display: flex;
+   justify-content: center;
+}
