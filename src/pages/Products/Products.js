@@ -21,7 +21,7 @@ all sizes different colors
 classic ,casual or sports all what you need just cool </p>
 
 <form>
-<label className='me-3'>Choose a Size:  </label>
+<label className='me-3'>Size:  </label>
 
 <select id="Size">
   <option placeholder='Choose' value=""></option>
@@ -34,7 +34,7 @@ classic ,casual or sports all what you need just cool </p>
 
 </select>
 
-<label className='mx-3'>Choose a Color:  </label>
+<label className='mx-3 my-3'>Color:  </label>
 <input   type="color" className='mt-4' />
 
 <div className="">
@@ -48,7 +48,7 @@ classic ,casual or sports all what you need just cool </p>
 
 
 </select>
-<label className='mx-3'>number of pieces</label>
+<label className='mx-3 my-3'>pieces</label>
 <input type="Number" className='mt-4' min={0} max={30} />
 </div>
 <div>
