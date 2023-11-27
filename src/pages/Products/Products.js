@@ -21,10 +21,9 @@ all sizes different colors
 classic ,casual or sports all what you need just cool </p>
 
 <form>
-<label className='me-3'>Size:  </label>
+<label className='mx-2'>Size:  </label>
 
-<select id="Size">
-  <option placeholder='Choose' value=""></option>
+<select id="Size" style={{height:"25px" , width:"50px" }}>
   <option value="S">S</option>
   <option value="M">M</option>
   <option value="L">L</option>
@@ -33,14 +32,9 @@ classic ,casual or sports all what you need just cool </p>
   <option value="3XL">3XL</option>
 
 </select>
+<label className='mx-2'>Gender:  </label>
 
-<label className='mx-3 my-3'>Color:  </label>
-<input   type="color" className='mt-4' />
-
-<div className="">
-<label className='me-3'>Gender:  </label>
-
-<select id="gender">
+<select id="gender" style={{height:"25px" , width:"50px"}}>
 
   <option value="S">Man</option>
   <option value="M">Women</option>
@@ -48,8 +42,14 @@ classic ,casual or sports all what you need just cool </p>
 
 
 </select>
-<label className='mx-3 my-3'>pieces</label>
-<input type="Number" className='mt-4' min={0} max={30} />
+<div className="">
+
+<label className='mx-2 my-3'>pieces</label>
+<input type="Number" className='mt-4' value={0} min={0} max={30} style={{height:"20px" , width:"50px"}} />
+
+<label className='mx-2 my-3'>Color:  </label>
+<input   type="color" className=''style={{height:"20px" , width:"50px"}} />
+
 </div>
 <div>
 

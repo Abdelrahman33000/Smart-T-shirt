@@ -11,7 +11,6 @@ import { FaEnvelopeOpen, FaGlobeAmericas, FaPhoneAlt } from "react-icons/fa";
 import whatsapp from "../../Image/whatsapp-svgrepo-com.svg";
 import instagram from "../../Image/social-instagram-ico.svg";
 import facebook from "../../Image/social-facebook-ico.svg";
-
 const Footer = () => {
   return (
     <div className="container-fluide footer p-3 text-light">
@@ -50,27 +49,27 @@ const Footer = () => {
 
         <div id="asd" className="col-lg-3 col-md-6">
           <h4>CONTACT FOUNDER</h4>
-          <h6>Johan TAWADROUS</h6>
+          <h6>Abdelrahman Abdelwahab</h6>
           <div className="d-flex">
             <FaPhoneAlt className="icon me-2" />
-            <h6>+65851674852 </h6>
+            <h6>+201011815928 </h6>
           </div>
           <div className="d-flex ">
             {" "}
             <FaEnvelopeOpen className="icon me-2" />
-            <h6>jon@yahoo.com</h6>
+            <h6>aboabdo8600@gmail.com</h6>
           </div>
           <br />
           <br />
 
-          <h4>Co-founder : Mary jack </h4>
+          <h4>Co-founder : Abdo </h4>
           <div className="d-flex">
             <FaPhoneAlt className="icon me-2" />
-            <h6>+64235795254 </h6>
+            <h6>+2011815928 </h6>
           </div>
           <div className="d-flex ">
             <FaEnvelopeOpen className="icon me-2" />
-            <h6>Mary@gmail.com </h6>{" "}
+            <h6>aboabdo8600@gmail.com </h6>{" "}
           </div>
           <div className="d-flex">
             <FaGlobeAmericas className="icon me-2" />{" "}

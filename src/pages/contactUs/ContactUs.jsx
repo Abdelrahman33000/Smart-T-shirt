@@ -24,33 +24,31 @@ const ContactUs = () => {
             <h6 className="mx-4 mb-4">say something to start a live chat!</h6>
 
             <div className="d-flex align-items-center">
-              <Link href={"#"}>
-                {" "}
+              <Link to="+2011815928">
                 <ImPhone className="icon mx-4 my-5" />
               </Link>
-              <span>+654831565125</span>
+              <span>+2011815928</span>
             </div>
             <div className="d-flex align-items-center">
-              <Link href={"mailto:tawadroust@yahoo.com"}>
+              <Link to="mailto:aboabdo8600@gmail.com">
                 <ImMail3 className="icon mx-4 my-5" />
               </Link>
-              <span>Maryjack@yahoo.com</span>
+              <span>aboabdo8600@gmail.com</span>
             </div>
             <div className="d-flex align-items-center">
-              <Link href={"#"}>
-                {" "}
+              <Link to="https://khamsat.com/user/abdo330000">
                 <FaGlobeAmericas className="icon mx-4 my-5" />
               </Link>
-              <span> www.made.com.au </span>
+              <span> www.khamsat.com </span>
             </div>
             <div className="icon">
-              <Link href={""}>
+              <Link to="https://www.youtube.com/c/EngAbdelrahmanAbdelwahab">
                 <BsCaretRightSquareFill className="icon mx-4 my-5" />
               </Link>
-              <Link href={""}>
+              <Link to="https://www.facebook.com/Abdo55655">
                 <BsFacebook className="icon mx-4 my-5" />
               </Link>
-              <Link href={""}>
+              <Link to="https://www.linkedin.com/in/abdelrahman-abdelwahab-7034b3208/">
                 <AiFillLinkedin className="icon mx-4 my-5" />
               </Link>
             </div>
