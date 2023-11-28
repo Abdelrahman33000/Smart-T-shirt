@@ -45,7 +45,7 @@ classic ,casual or sports all what you need just cool </p>
 <div className="">
 
 <label className='mx-2 my-3'>pieces</label>
-<input type="Number" className='mt-4' value={0} min={0} max={30} style={{height:"20px" , width:"50px"}} />
+<input type="Number" className='mt-4' placeholder='0'  min={0} max={30} style={{height:"20px" , width:"50px"}} />
 
 <label className='mx-2 my-3'>Color:  </label>
 <input   type="color" className=''style={{height:"20px" , width:"50px"}} />
